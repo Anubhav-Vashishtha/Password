@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Genos', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pass h1{
+    font-size: 6vw;
+}
+
+#pass h3{
+    font-size: 2vw;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    background-color: rgb(238, 176, 176);
+    padding: 1vw 2vw;
+    margin: 1vw;
+    font-size: larger;
+    border-radius: 100px;
+    transition-property:all ;
+    transition-duration: 0.2s;
+    font-size: 2vw;
+    border: none;
+}
+
+.box:hover{
+    scale: 1.05;
+    background-color: rgb(239, 157, 157);
+    cursor: pointer;
+}
+
+.box:active{
+    background-color: rgb(238, 176, 176);
+    scale:1;
+}
